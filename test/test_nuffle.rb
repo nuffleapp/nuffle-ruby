@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require 'nuffle'
+require File.expand_path('../../lib/nuffle', __FILE__)
 
 class TestNuffle < Minitest::Test
 
