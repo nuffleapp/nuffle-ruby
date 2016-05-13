@@ -4,7 +4,8 @@ ruby:
   - '2.0'
   - '2.1'
   - '2.2'
+  - '2.3'
 script:
-    - ruby test/*.rb --seed=
+    - ruby test/*.rb --seed=1
 after_success:
   - bash <(curl -s https://codecov.io/bash)
