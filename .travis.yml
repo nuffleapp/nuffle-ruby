@@ -1,0 +1,10 @@
+language: ruby
+ruby:
+  - '1.9'
+  - '2.0'
+  - '2.1'
+  - '2.2'
+script:
+    - ruby test/*.rb --seed=
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
