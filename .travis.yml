@@ -5,6 +5,7 @@ ruby:
   - '2.1'
   - '2.2'
   - '2.3'
+install: gem install minitest
 script:
     - ruby test/*.rb --seed=1
 after_success:
