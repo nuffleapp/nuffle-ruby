@@ -12,4 +12,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9'
 
   s.add_development_dependency "minitest", ["~> 0"]
+  s.add_development_dependency "simplecov", ["~> 0"]
+  s.add_development_dependency "codecov", ["~> 0"]
 end

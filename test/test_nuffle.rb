@@ -1,3 +1,11 @@
+if ENV['CI'] == 'true'
+  require 'simplecov'
+  SimpleCov.start
+
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+
 require 'minitest/autorun'
 require File.expand_path('../../lib/nuffle', __FILE__)
 

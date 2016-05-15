@@ -5,8 +5,6 @@ ruby:
   - '2.1'
   - '2.2'
   - '2.3'
-install: gem install minitest
+install: gem install minitest simplecov codecov
 script:
-    - ruby test/*.rb
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - ruby test/*.rb
