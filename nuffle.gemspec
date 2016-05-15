@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage              = 'https://github.com/nuffleapp/nuffle-ruby'
   s.license               = 'MIT'
   s.required_ruby_version = '>= 1.9'
+
+  s.add_development_dependency "minitest", ["~> 0"]
 end
