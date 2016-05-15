@@ -5,8 +5,10 @@ ruby:
   - '2.1'
   - '2.2'
   - '2.3'
+env:
+  - SEED=1
 install: gem install minitest
 script:
-    - ruby test/*.rb --seed=1
+    - ruby test/*.rb
 after_success:
   - bash <(curl -s https://codecov.io/bash)
