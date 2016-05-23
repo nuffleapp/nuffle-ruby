@@ -1,4 +1,4 @@
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Build Status](https://travis-ci.org/nuffleapp/nuffle-ruby.svg?branch=master)](https://travis-ci.org/nuffleapp/nuffle-ruby) [![codecov](https://codecov.io/gh/nuffleapp/nuffle-ruby/branch/master/graph/badge.svg)](https://codecov.io/gh/nuffleapp/nuffle-ruby)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Build Status](https://travis-ci.org/nuffleapp/nuffle-ruby.svg?branch=master)](https://travis-ci.org/nuffleapp/nuffle-ruby) [![codecov](https://codecov.io/gh/nuffleapp/nuffle-ruby/branch/master/graph/badge.svg)](https://codecov.io/gh/nuffleapp/nuffle-ruby)[![Gitter](https://badges.gitter.im/nuffleapp/nuffle-ruby.svg)](https://gitter.im/nuffleapp/nuffle-ruby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge) 
 
 # Nuffle, The Ruby Library
 
