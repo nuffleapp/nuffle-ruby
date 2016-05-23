@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name                  = 'nuffle'
-  s.version               = '0.1.0'
-  s.date                  = '2016-05-13'
+  s.version               = '1.0.0'
+  s.date                  = '2016-05-23'
   s.summary               = "Nuffle"
   s.description           = "Roll a die with any number of sides."
   s.authors               = ["Zachary Flower"]
