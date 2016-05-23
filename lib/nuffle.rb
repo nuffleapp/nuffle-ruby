@@ -37,8 +37,16 @@ class Nuffle::Calculator
       "(#{rolls.join(" + ")})"
     end
 
+    # cast integers to floats
+    equation = @equation.gsub(/\b(\d+)\b/) do |match|
+      $1.to_f.to_s
+    end
+
     # calculate result
-    @result = eval(@equation);
+    @result = eval(equation);
+
+    # cast result to integer if a whole float
+    @result = @result.to_i if @result % 1 == 0
 
     self
   end
@@ -51,6 +59,9 @@ class Nuffle::Calculator
 
     # no empty inputs
     raise("Input can't be blank.") if input.to_s.strip == ''
+
+    # cast input to a string
+    input = input.to_s
 
     # validate the input format
     raise("Invalid equation.") unless /^[\(\s]*(([1-9][0-9]*d[1-9][0-9]*)|\d+)[\s\)]*(\s*([\-\+\*\/])[\s\(]*(([1-9][0-9]*d[1-9][0-9]*)|\d+)\)*)*$/i.match(input)
