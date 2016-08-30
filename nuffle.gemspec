@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name                  = 'nuffle'
-  s.version               = '1.0.0'
+  s.version               = '1.0.1'
   s.date                  = '2016-05-23'
   s.summary               = "Nuffle"
-  s.description           = "Roll a die with any number of sides."
+  s.description           = "Nuffle, The Ruby Library, is a dice calculator library that provides the functionality to perform complex dice rolls and calculate their result (ex: `5d6 + 1d20 / (1d6 - 2)`."
   s.authors               = ["Zachary Flower"]
   s.email                 = 'zach@zacharyflower.com'
   s.files                 = ["lib/nuffle.rb"]

@@ -21,7 +21,7 @@ class Nuffle::Calculator
     @rolls = []
 
     # throw rolls and replace 'xdy' dice notation with results
-    @equation = @input.gsub(/(\d+)d(\d+)/) do |match|
+    @equation = @input.gsub(/(\d+)d(\d+)/i) do |match|
       rolls = []
 
       (1..$1.to_i).each do
