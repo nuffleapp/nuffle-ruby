@@ -1,6 +1,5 @@
 language: ruby
-ruby:
-  - '1.9'
+rvm:
   - '2.0'
   - '2.1'
   - '2.2'
